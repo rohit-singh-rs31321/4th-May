@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+header ul li{
+    width: 25%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+header ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+header ul li a{
+    text-decoration:none;
+    color:aliceblue
+}
+header ul li a:hover{
+    color: brown;
+}
+#logo{
+    width: 17%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 5px;
+    
+}
+#menu{
+    width: 80%;
+    float: left;
+    
+    
+}
+
+/* HOme section */
+#home{
+    width: 100%;
+    height: 500px;
+    background-image: url('../image/bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#home .contentHome{
+    
+    margin: 0 20%;
+    padding-top: 270px;
+    width: 60%;
+    
+    
+}
+.subContent{
+    padding: 20px;
+    background-color: #2C5E61;
+    border-radius: 20px;
+}
+#home h1{
+    margin-top: 0;
+}
+/*About section */
+#about{
+    width:100%;
+    height: 500px;
+
+}
+#about h1{
+    text-align: center;
+    font-size: 36px;
+}
+.aboutContent{
+    margin:30px 0;
+}
+.divAbout{
+    width: 18%;
+    background-color: brown;
+    float: left;
+    color: wheat;
+    padding: 0 1%;
+    height: 300px;
+    border-radius: 5px;
+
+}
+.divAbout{
+    padding-top: 1%;
+    text-align: center;
+}
+.mLR{
+    margin: 0 4%;
+}
+.mR{
+    margin-right: 4%;
+}
+
+
+#about button{
+    background-color: black;
+    color: white;
+    height: 20px;
+    font-size: 8px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* --------team section----------- */
+#team{
+    width: 100%;
+    height: 500px;
+    /* color: wheat;
+    background-color: brown; */
+    margin: 2% 0;
+}
+.teamContent1{
+    width: 100%;
+    height: 390px;
+    color: wheat;
+    background-color: brown;
+    padding:4% 0;
+}
+
+.teamLeft{
+    width: 26%;
+    margin-left: 4%;
+    padding:2% 2%;
+    float: left;
+    
+    border-radius: 5px;
+}
+.teamLeft h1{
+    text-align: center;
+}
+.teamRight {
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 4%;
+    float: left;
+}
+
+/* --------contact section----------- */
+
+#contact{
+    width: 100%;
+    height: 400px;
+}
+.contactContent{
+    width: 92%;
+    margin: 0 4%;
+    
+}
+.contactLeft, .contactRight{
+    width: 50%;
+    float: left;
+}
+form{
+    padding:  0 4%;
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+label{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    background-color: black;
+    height: 44px;
+    border: none;
+    font-size: 22px;
+    color: wheat;
+}
+
+
+
